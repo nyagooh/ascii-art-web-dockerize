@@ -20,8 +20,8 @@ func main() {
 	fs := http.FileServer(http.Dir("./static"))
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
-	fmt.Println("Server is starting on http://localhost:8090")
-	err := http.ListenAndServe(":8090", nil)
+	fmt.Println("Server is starting on http://localhost:8060")
+	err := http.ListenAndServe(":8060", nil)
 	if err != nil {
 		fmt.Println("Error starting server")
 		os.Exit(1)

@@ -62,10 +62,10 @@ Open a web browser and visit http://localhost:8060 to use the ASCII Art Web Styl
 
  - Stopping and Cleaning Up
 
-If you need to stop the Docker container and remove the Docker image, use the provided terminate.sh script.
+If you need to stop the Docker container and remove the Docker image, use the provided cleanup.sh script.
 
 ```bash
-./terminate.sh
+./cleanup.sh
 ```
 
 This script contains:
